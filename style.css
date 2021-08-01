@@ -64,7 +64,7 @@
     margin-bottom: 0px;
     text-align: center;
     color: #f8f8f8;
-    background-image: url("/images/background 13.jpg");
+    background-image: url("background 13.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 650px;
@@ -266,7 +266,7 @@
     .contact_section{
         height:500px;
         /* background-color: #FFC71F; */
-        background-image: url("/images/background 14.jpg");
+        background-image: url("background 14.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         font-family:serif ;
