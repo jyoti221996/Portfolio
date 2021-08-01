@@ -1,0 +1,501 @@
+body{
+    font-family:serif;
+}
+/* HEADER SECTION */
+/* .navbar{ */
+    /* background-color: #C800DB; */
+    /* background-image: url("/images/background 11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+/* } */
+
+.nav-link {
+    font-size: 1.2rem;
+    color: rgb(0, 195, 255);
+  }
+  
+
+   .navbar-brand{    
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Sacramento', cursive;
+    /* color: rgb(0, 195, 255); */
+    padding-left: 80px;
+    background-image: linear-gradient(45deg, #3532df, #000000);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+   }
+   
+   nav{
+       height:auto;
+       background-image:linear-gradient(to right ,rgb(240, 180, 248) ,#9661ec) ;
+   }
+
+   .navbar-nav{
+       padding-right: 80px;
+   }
+   .nav-item{     
+    font-size:20px;    
+    padding: 0 40px; 
+    font-family: serif;
+   }
+
+
+
+
+/* BANNER SECTION */
+.banner{
+    /* background-color: #C800DB; */
+    background-image: url("/images/background 11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:700px;
+    padding-top:1px;
+}
+
+
+
+.myImg{
+    width: 400px;
+    height: 500px;
+    border: 10px solid rgba(255, 255, 255, 0.7);
+    float:right;
+    margin: 6.5% 10% 0 0;
+    transform: rotate(10deg); 
+}
+
+ .banner_container{
+    text-align: center;
+    float: left;
+    width:700px;
+    height:400px;
+    margin: 14% 0 0 100px;
+}
+
+.bannerH{
+    font-size: 60px;
+    padding-bottom: 2%;
+    color: #fff;
+    text-shadow: 1px 2px #000;
+    font-family: serif;
+}
+
+.bannerH3{
+    padding-bottom: 2%;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    text-decoration: none;
+    font-family: serif;
+}
+
+.bannerI{
+    padding-top: 5%;
+    
+}
+
+.bannerP{
+    color: #fff;
+    text-align: center;
+}
+
+.icon{
+    color: rgb(71, 70, 70);
+    padding:3rem 2rem;
+} 
+
+/* ABOUT ME */
+
+.aboutMe{
+    background-color: #fcdaf6;
+}
+.about{
+    text-align: center;
+    width:100%;
+    height:250px;
+    /* margin-top: 3%; */
+}
+
+.aboutH{
+    display:inline-block;
+    border: 1px solid #000;
+    padding: 1%;
+    margin:3% 0 4% 0;
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+
+
+
+
+
+/* HOBBIES SECTION */
+
+.hobby{
+    height: 750px;
+    width:100%;
+    text-align: center;
+    /* margin-top: 3%; */
+    background-color: #fcdaf6;
+}
+
+.hobbyH{
+    display:inline-block;
+    border: 1px solid #000;
+    padding: 1%;
+    margin: 4% 0 2% 0;
+    font-family: 'Averia Serif Libre', cursive
+}
+
+
+.hobby-row{  
+  margin: 100px 0 0 50px;
+  text-align: left;
+  float:left;
+}
+
+h2{
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+.drawingImg{
+  width:25%;
+  float:left;
+  margin-right: 30px;
+}
+
+.paperImg{
+  width:25%;
+  float:left;
+  margin-right: 30px;
+}
+
+/* QUOTE SECTION */
+
+.quoteImg{
+    width:500px;
+    height: 600px;
+
+}
+
+/* CONTACT SECTION */
+.contact_section{
+    height:450px;
+    background-image: url("/images/background 12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    text-align: center;        
+    padding-top: 50px;
+    width:100%;
+}
+.contact_container{
+    text-align: center;
+}
+.contact_section h1{
+    font-size: 50px; 
+         
+}
+
+.contactH{
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
+
+h3{
+    color: #fff;
+    padding-top: 35px;
+    text-decoration: underline;  
+}
+
+#contacts a{
+    color: rgb(70, 68, 68);
+    font-size: 15px;
+    padding: 30px;
+}
+
+.icons{
+   padding-top: 55px;
+}
+
+.icons a{
+    color: rgb(100, 98, 98);
+    margin:20px 25px;
+    
+}
+
+.footer p{
+    font-size: 15px;
+    color: rgb(116, 114, 114);
+    padding-top: 45px;
+}
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media(max-width:500px){
+    body{
+        padding:0;
+        margin: 0;
+    }
+    
+    .myImg{
+        width: 250px;
+        height: 300px;
+        border: 10px solid rgba(255, 255, 255, 0.7);
+        float:left;
+        margin: 6.5% 0 0 25%;
+        transform: rotate(0deg); 
+    }
+    
+     .banner_container{
+        text-align: center;
+        float: right;
+        width:400px;
+        height:400px;
+        margin: 1% 9% 0 0;
+        z-index: 1;
+    }
+
+    .bannerH{
+        font-size: 30px;
+        padding-top: 22%;
+        
+    }
+    
+    .bannerH3{
+        font-size: 15px;
+        padding-bottom: 2%;
+    }
+
+    .bannerP{
+        text-align: justify;
+    }
+    
+    .bannerI{
+        padding-top: 8%;
+    }
+    
+    .icon{
+        color: rgb(71, 70, 70);
+        padding:3rem 2rem;
+    }
+
+    .quoteImg{
+        width:300px;
+        height: 400px;
+        padding-left:0;
+        margin-top: 10%;
+    }
+    
+    .aboutMe{        
+        height:470px;
+      }
+    
+      .hobby{
+          height:1100px;
+      }
+
+      .contact_section{
+        height:590px;
+        width:100%;
+    }
+
+    h3{
+        padding-bottom: 8%;
+    }
+
+    #contacts a{
+        color: rgb(70, 68, 68);
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .icons{
+        padding-top: 15%;
+     }
+
+     .footer p{
+         padding-top: 30%;
+     }
+
+     
+}
+
+@media screen and (min-width:501px) and (max-width:800px){
+    .myImg{
+        width: 250px;
+        height: 350px;
+        border: 10px solid rgba(255, 255, 255, 0.7);
+        float:right;
+        margin: 20% 9% 0 0;
+        transform: rotate(10deg); 
+    }
+    
+     .banner_container{
+        text-align: center;
+        float: left;
+        width:400px;
+        height:400px;
+        margin: 10% 0 0 8%;
+    }
+
+    .container.about{
+        margin: 0;
+    }
+    .bannerH{
+        font-size: 35px;
+        padding-top: 22%;
+    }
+    
+    .bannerH3{
+        font-size: 20px;
+        padding-bottom: 2%;
+    }
+
+    .bannerP{
+        text-align: justify;
+    }
+    
+    .bannerI{
+        padding-top: 8%;
+    }
+    
+    .icon{
+        color: rgb(71, 70, 70);
+        padding:3rem 2rem;
+    }
+
+    .hobby{
+        height: 750px;
+         padding: 0;
+         margin: 0;      
+    }
+
+    .container.quote{
+        margin-left: 0;
+    }
+
+    .quoteImg{
+        width:300px;
+        height: 400px;
+        padding-left:0;
+        margin-top: 25%;
+    }
+
+    .about{
+        width:100%;
+        height: 300px;
+        margin:6% 0 3% 0;
+    }
+
+    .contact_section{
+        height:500px;
+        width:100%;
+    }
+    
+    .footer{
+        margin-top: 8%;
+    }
+}
+
+@media screen and (min-width:801px) and (max-width:1024px){
+    .myImg{
+        width: 330px;
+        height: 430px;
+        border: 10px solid rgba(255, 255, 255, 0.7);
+        float:right;
+        margin: 12% 9% 0 0;
+        transform: rotate(10deg); 
+    }
+    
+     .banner_container{
+        text-align: center;
+        float: left;
+        width:450px;
+        height:400px;
+        margin: 10% 0 0 8%;
+    }
+
+    .bannerH{
+        font-size: 40px;
+        padding-top: 22%;
+    }
+    
+    .bannerH3{
+        font-size: 29px;
+        padding-bottom: 2%;
+    }
+
+    .container.quote{
+        margin-left: 0;
+    }
+
+    .quoteImg{
+        width:400px;
+        height: 500px;
+        
+    }
+    .about{
+        width:100%;
+        height: 300px;
+        margin:0;
+    }
+
+    .contact_section{
+        height:430px;
+        width:100%;
+    }
+}
+
+
+@media screen and (min-width:1025px) and (max-width:1200px){
+    .myImg{
+        width: 330px;
+        height: 430px;
+        border: 10px solid rgba(255, 255, 255, 0.7);
+        float:right;
+        margin: 12% 9% 0 0;
+        transform: rotate(10deg); 
+    }
+    
+     .banner_container{
+        text-align: center;
+        float: left;
+        width:500px;
+        height:500px;
+        margin: 10% 0 0 8%;
+    }
+
+    .bannerH{
+        font-size: 40px;
+        padding-top: 22%;
+    }
+    
+    .bannerH3{
+        font-size: 29px;
+        padding-bottom: 2%;
+    }
+
+    .about{
+        width:100%;
+        height: 300px;
+        margin:0;
+    }
+
+    .hobby{
+        height:700px;
+    }
+
+    .contact_section{
+        height:430px;
+        width:100%;
+    }
+    
+}
+
