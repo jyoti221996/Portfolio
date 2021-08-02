@@ -429,7 +429,7 @@
      }
 
      .information{
-       height:750px;
+       height:800px;
      }
 
      .inner-banner-image {
@@ -465,8 +465,8 @@
      }
 
      .target {
-       width: 200px;
-       height: 200px;
+       width: 100px;
+       height: 100px;
        float: right;
 
      }
