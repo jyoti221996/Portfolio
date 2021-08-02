@@ -445,234 +445,111 @@
 
     /* FOR MOBILE POERTRAIT OR LANDSCAPE VIEW */
 
-    @media screen and (max-width:640px){
-        .container{
-            text-align: center;
-        }
-
-        .navbar-brand{
-            padding-left: 10px;
-        }
-         
-        .banner-image{
-            padding-top: 10%;
-            width:100%;
-            margin:auto;
-        }
-
-        .project_background{
-           
-            height: 50%;
-           }
-
-           .information{
-               height:750px;
-           }
-           
-           .left{
-            height:400px;
-            padding-left: 10px;
-        }
-        .right{
-            height:400px;
-            padding-left: 20px;
-            padding-top:0;
-            margin: 0 110px;
-        }
-
-        .image1{
-            width:300px;
-            height: 300px;
-        }
-
-        .right h2{
-           font-size: 30px; 
-        }
-
-        .projectH{
-            font-size: 40px;
-            margin: 2% 2%;
-        }
-        .project_Img{
-            width:100%;
-            height:300px;           
-        }
-
-        .quote{
-            height:290px;            
-            padding-top: 40px;
-            padding-left: 0;
-            
-        }
-
-        .quote_img{
-            width: 200px;
-            height:200px;
-        }
-    
-        /* .quote h1{
-            font-size: 20px;
-            font-family:serif ;
-            display: inline;
-        }
-
-        .quote_text{
-           padding:2% 2% 0 2%; 
-          
-        }
-    
-       
-        .sign{
-            font-family:'Averia Serif Libre' ,cursive;
-            font-size: 20px;
-            display: inline-block;
-            padding-right:100px;
-            text-shadow: 2px 2px #fccf47;
-        }
-    
-        .looking{
-            font-family:'Averia Serif Libre' , cursive;
-            font-size: 20px;
-            text-shadow: 2px 2px #fccf47;
-        } */
-    
-        .target{
-            width:250px;
-            height:250px;
-            float:right;
-           
-            padding-bottom: 10%;
-        }
-        
-        .contact_section{
-            height:540px;
-        }
-
-        .footer_nav{
-            padding:3px;
-        }
-
-        .footer p{
-            font-size: 15px;
-            color: rgb(116, 113, 113);
-            padding-top: 40px;
-        }
-    }
 
 
 
 
 
-    /* @media(max-width:500px){
-        .left{
-            height:400px;
-            padding-left: 40px;
-        }
-        
-        .right{
-            height:400px;            
-            margin: 10px 100px 0 100px;  
-            padding: 100px;         
-        }
+    @media(max-width:500px) {
+  .banner_content{
+    margin-top: 30%;
+  }
 
-        .right h2{
-            font-size: 30px;
-            text-align: center;
-        }
-        
-        .inner-banner-image{
-            width:70%;
-            height: 50%;
-        }
+     .left {
+       height: 220px;
+       padding-left: 15%;
+     }
 
-        .image1{
-            width:300px;
-            height:300px;
-        }
-        .project_background{
-            
-            height: 50%;
-           }  
+     .right {
+       height: 220px;
+       margin: 0 100px 0 100px;
 
-           .projectH{
-               font-size: 30px;
-               margin-bottom: 5%;
-           }
-      
+     }
 
-        .quote{
-            height:300px;
-            
-            padding-top: 50px;
-            padding-left: 40px;
-        }
-    
-        .quoteH{
-            font-size: 5px;
-            font-family:serif ;
-            display: inline;
-        }
+     .right h2 {
+       font-size: 30px;
+       text-align: center;
+     }
 
-        
-    
-        .sign{
-            font-family:'Averia Serif Libre' ,cursive;
-            font-size: 40px;
-            display: inline-block;
-            padding-right:120px;
-            text-shadow: 1px 2px #fccf47;
-        }
-    
-        .looking{
-            font-family:'Averia Serif Libre' ,cursive;
-            font-size: 40px;
-            text-shadow: 1px 2px #fccf47;
-        }
-    
-        .target{
-            width:200px;
-            height:200px;
-            float:right;
-            padding-bottom: 27px;
-        }
+     .information{
+       height:650px;
+     }
 
-        .contact_section{
-            height:500px;
-        }
-    
-        .contact_section h1{
-            font-size: 40px;  
-            text-shadow: 1px 1px #000;      
-        }
-    
-        h3{
-            padding-top: 25px;
-        }
-        
-        .contacts a{
-            color: rgb(70, 68, 68);
-            font-size: 15px;
-            padding: 1px;
-            margin-top: 20px;
-        }
+     .inner-banner-image {
+       width: 70%;
+       height: 50%;
+     }
 
-        .footer_nav{
-            padding:3px;
-        }
-    
-        .icons{
-           padding-top: 100px;
-        }
-    
-        .icons a{
-            color: rgb(97, 93, 93);
-            margin:20px 25px;
-            
-        }
-    
-        .footer p{
-            font-size: 15px;
-            color: rgb(116, 113, 113);
-            padding-top: 40px;
-        }
-    } */
+     .image1 {
+       width: 300px;
+       height: 250px;
+     }
+
+
+     .project_background {
+       height: 50%;
+     }
+
+     .projectH {
+       font-size: 30px;
+       margin-bottom: 5%;
+     }
+
+     .quote {
+
+       height: 300px;
+       padding-top: 50px;
+       padding-left: 40px;
+     }
+
+     .quote_img{
+       width:200px;
+       height:200px;
+     }
+
+     .target {
+       width: 200px;
+       height: 200px;
+       float: right;
+
+     }
+
+     .contact_section {
+       height: 500px;
+     }
+
+     .contact_section h1 {
+       font-size: 40px;
+       text-shadow: 1px 1px #000;
+     }
+
+     h3 {
+       padding-top: 25px;
+     }
+
+     .contacts a {
+       color: rgb(70, 68, 68);
+       font-size: 15px;
+       padding: 1px;
+       margin-top: 20px;
+     }
+
+     .footer_nav {
+       padding: 3px;
+     }
+
+     .icons {
+       padding-top: 100px;
+     }
+
+     .icons a {
+       color: rgb(97, 93, 93);
+       margin: 20px 25px;
+     }
+
+     .footer p {
+       font-size: 15px;
+       color: rgb(116, 113, 113);
+       padding-top: 40px;
+     }
+   }
