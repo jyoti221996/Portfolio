@@ -228,30 +228,7 @@
         height:500px;
     }
 
-    /* .quote h1{
-        font-size: 50px;
-        font-family:serif ;
-        display: inline;
-    }
-
-    .quote_text{
-        float:left;
-        text-shadow: 1px 1px #fccf47;;
-    }
-
-    .sign{
-        font-family:'Averia Serif Libre' ,cursive;
-        font-size: 100px;
-        display: inline-block;
-        padding-right:120px;
-        text-shadow: 2px 2px #fccf47;
-    }
-
-    .looking{
-        font-family:'Averia Serif Libre' ,cursive;
-        font-size: 100px;
-        text-shadow: 2px 2px #fccf47;
-    } */
+   
 
     .target{
         width:500px;
@@ -407,27 +384,7 @@
             height:200px;
         }
     
-        /* .quote h1{
-            font-size: 50px;
-            font-family:serif ;
-            display: inline;
-            padding-left: 8%;
-        }
-
         
-        .sign{
-            font-family:'Averia Serif Libre' , cursive;
-            font-size: 80px;
-            display: inline-block;
-            padding-right:120px;
-            text-shadow: 2px 2px #fccf47;
-        }
-    
-        .looking{
-            font-family:'Averia Serif Libre' ,cursive;
-            font-size: 80px;
-            text-shadow: 2px 2px #fccf47;
-        } */
     
         .target{
             width:400px;
