@@ -2,20 +2,15 @@ body{
     font-family:serif;
 }
 /* HEADER SECTION */
-/* .navbar{ */
-    /* background-color: #C800DB; */
-    /* background-image: url("/images/background 11.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; */
-/* } */
+
 
 .nav-link {
     font-size: 1.2rem;
     color: rgb(0, 195, 255);
   }
-  
 
-   .navbar-brand{    
+
+   .navbar-brand{
     font-size: 30px;
     font-weight: bold;
     font-family: 'Sacramento', cursive;
@@ -25,10 +20,10 @@ body{
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
    }
-   
+
    nav{
        height:auto;
        background-image:linear-gradient(to right ,rgb(240, 180, 248) ,#9661ec) ;
@@ -37,9 +32,9 @@ body{
    .navbar-nav{
        padding-right: 80px;
    }
-   .nav-item{     
-    font-size:20px;    
-    padding: 0 40px; 
+   .nav-item{
+    font-size:20px;
+    padding: 0 40px;
     font-family: serif;
    }
 
@@ -64,7 +59,7 @@ body{
     border: 10px solid rgba(255, 255, 255, 0.7);
     float:right;
     margin: 6.5% 10% 0 0;
-    transform: rotate(10deg); 
+    transform: rotate(10deg);
 }
 
  .banner_container{
@@ -93,7 +88,7 @@ body{
 
 .bannerI{
     padding-top: 5%;
-    
+
 }
 
 .bannerP{
@@ -104,7 +99,7 @@ body{
 .icon{
     color: rgb(71, 70, 70);
     padding:3rem 2rem;
-} 
+}
 
 /* ABOUT ME */
 
@@ -150,7 +145,7 @@ body{
 }
 
 
-.hobby-row{  
+.hobby-row{
   margin: 100px 0 0 50px;
   text-align: left;
   float:left;
@@ -186,8 +181,8 @@ h2{
     background-image: url("background 12.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    
-    text-align: center;        
+
+    text-align: center;
     padding-top: 50px;
     width:100%;
 }
@@ -195,8 +190,8 @@ h2{
     text-align: center;
 }
 .contact_section h1{
-    font-size: 50px; 
-         
+    font-size: 50px;
+
 }
 
 .contactH{
@@ -207,7 +202,7 @@ h2{
 h3{
     color: #fff;
     padding-top: 35px;
-    text-decoration: underline;  
+    text-decoration: underline;
 }
 
 #contacts a{
@@ -223,7 +218,7 @@ h3{
 .icons a{
     color: rgb(100, 98, 98);
     margin:20px 25px;
-    
+
 }
 
 .footer p{
@@ -243,16 +238,16 @@ h3{
         padding:0;
         margin: 0;
     }
-    
+
     .myImg{
         width: 250px;
         height: 300px;
         border: 10px solid rgba(255, 255, 255, 0.7);
         float:left;
         margin: 6.5% 0 0 25%;
-        transform: rotate(0deg); 
+        transform: rotate(0deg);
     }
-    
+
      .banner_container{
         text-align: center;
         float: right;
@@ -265,9 +260,9 @@ h3{
     .bannerH{
         font-size: 30px;
         padding-top: 22%;
-        
+
     }
-    
+
     .bannerH3{
         font-size: 15px;
         padding-bottom: 2%;
@@ -276,11 +271,11 @@ h3{
     .bannerP{
         text-align: justify;
     }
-    
+
     .bannerI{
         padding-top: 8%;
     }
-    
+
     .icon{
         color: rgb(71, 70, 70);
         padding:3rem 2rem;
@@ -292,11 +287,11 @@ h3{
         padding-left:0;
         margin-top: 10%;
     }
-    
-    .aboutMe{        
+
+    .aboutMe{
         height:470px;
       }
-    
+
       .hobby{
           height:1100px;
       }
@@ -324,19 +319,19 @@ h3{
          padding-top: 30%;
      }
 
-     
+
 }
 
-@media screen and (min-width:501px) and (max-width:800px){
+/* @media(max-width:1200px){
     .myImg{
         width: 250px;
         height: 350px;
         border: 10px solid rgba(255, 255, 255, 0.7);
         float:right;
         margin: 20% 9% 0 0;
-        transform: rotate(10deg); 
+        transform: rotate(10deg);
     }
-    
+
      .banner_container{
         text-align: center;
         float: left;
@@ -352,7 +347,7 @@ h3{
         font-size: 35px;
         padding-top: 22%;
     }
-    
+
     .bannerH3{
         font-size: 20px;
         padding-bottom: 2%;
@@ -361,11 +356,11 @@ h3{
     .bannerP{
         text-align: justify;
     }
-    
+
     .bannerI{
         padding-top: 8%;
     }
-    
+
     .icon{
         color: rgb(71, 70, 70);
         padding:3rem 2rem;
@@ -374,7 +369,7 @@ h3{
     .hobby{
         height: 750px;
          padding: 0;
-         margin: 0;      
+         margin: 0;
     }
 
     .container.quote{
@@ -398,22 +393,22 @@ h3{
         height:500px;
         width:100%;
     }
-    
+
     .footer{
         margin-top: 8%;
     }
-}
+} */
 
-@media screen and (min-width:801px) and (max-width:1024px){
+@media(max-width:1024px){
     .myImg{
         width: 330px;
         height: 430px;
         border: 10px solid rgba(255, 255, 255, 0.7);
         float:right;
         margin: 12% 9% 0 0;
-        transform: rotate(10deg); 
+        transform: rotate(10deg);
     }
-    
+
      .banner_container{
         text-align: center;
         float: left;
@@ -426,7 +421,7 @@ h3{
         font-size: 40px;
         padding-top: 22%;
     }
-    
+
     .bannerH3{
         font-size: 29px;
         padding-bottom: 2%;
@@ -439,7 +434,7 @@ h3{
     .quoteImg{
         width:400px;
         height: 500px;
-        
+
     }
     .about{
         width:100%;
@@ -454,20 +449,23 @@ h3{
 }
 
 
-@media screen and (min-width:1025px) and (max-width:1200px){
+@media(max-width:768px){
+  .banner{
+    height:500px;
+  }
     .myImg{
-        width: 330px;
-        height: 430px;
+        width: 250px;
+        height: 330px;
         border: 10px solid rgba(255, 255, 255, 0.7);
         float:right;
         margin: 12% 9% 0 0;
-        transform: rotate(10deg); 
+        transform: rotate(0);
     }
-    
+
      .banner_container{
         text-align: center;
         float: left;
-        width:500px;
+        width:300px;
         height:500px;
         margin: 10% 0 0 8%;
     }
@@ -476,10 +474,10 @@ h3{
         font-size: 40px;
         padding-top: 22%;
     }
-    
+
     .bannerH3{
-        font-size: 29px;
-        padding-bottom: 2%;
+        font-size: 25px;
+        padding: 0 0 2% 0;
     }
 
     .about{
@@ -488,14 +486,82 @@ h3{
         margin:0;
     }
 
+    aboutH{
+      text-align: center;
+    }
+
     .hobby{
         height:700px;
+    }
+
+    .quoteImg{
+      width:250px;
     }
 
     .contact_section{
         height:430px;
         width:100%;
     }
-    
+
 }
 
+@media(max-width:500px){
+  .banner{
+    height:800px;
+  }
+    .myImg{
+        width: 250px;
+        height: 330px;
+        border: 10px solid rgba(255, 255, 255, 0.7);
+        float:right;
+        margin: 12% 22% 0 0;
+        transform: rotate(0);
+    }
+
+     .banner_container{
+        text-align: center;
+        float: left;
+        width:300px;
+        height:300px;
+        margin: 10% 0 0 21%;
+    }
+
+    .bannerH{
+        font-size: 35px;
+        padding-top: 22%;
+    }
+
+    .bannerH3{
+        font-size: 25px;
+        padding: 0 0 2% 0;
+    }
+
+    .aboutMe{
+        width:100%;
+        height: 300px;
+        margin:0;
+    }
+
+    aboutH{
+      text-align: center;
+    }
+
+    .hobby{
+        height:870px;
+    }
+
+    .quoteImg{
+      width:250px;
+      height:250px;
+    }
+
+    .contact_section{
+        height:540px;
+        width:100%;
+    }
+
+    .footer p{
+        padding-top: 15%;
+    }
+
+}
