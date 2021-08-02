@@ -107,7 +107,7 @@ body{
 
   /* MEDIA QUERIES */
 
-  @media(max-width:500px){
+  @media(max-width:360px){
     .resume{
         height:5000px;
         border:4px solid #000;
