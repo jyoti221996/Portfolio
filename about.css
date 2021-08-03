@@ -400,31 +400,49 @@ h3{
 } */
 
 @media(max-width:1024px){
+
+    .banner{
+        height:1600px;
+    }
+
+
     .myImg{
-        width: 330px;
-        height: 430px;
+        width: 630px;
+        height: 700px;
         border: 10px solid rgba(255, 255, 255, 0.7);
-        float:right;
-        margin: 12% 9% 0 0;
-        transform: rotate(10deg);
+/*         float:right; */
+        margin: 10% 17% 10% 10%;
+        transform: rotate(0);
     }
 
      .banner_container{
         text-align: center;
-        float: left;
+/*         float: left; */
         width:450px;
         height:400px;
-        margin: 10% 0 0 8%;
+        margin: 0;
+        position:absolute;
+        top:55%;
+        left:26%
     }
 
     .bannerH{
-        font-size: 40px;
+        font-size: 50px;
         padding-top: 22%;
     }
 
     .bannerH3{
-        font-size: 29px;
+        font-size: 32px;
         padding-bottom: 2%;
+    }
+
+    .bannerP{
+        font-size:40px;
+    }
+
+    .icon{
+        font-size:40px;
+        padding:40px;
     }
 
     .container.quote{
@@ -432,14 +450,42 @@ h3{
     }
 
     .quoteImg{
-        width:400px;
+        width:200px;
         height: 500px;
 
     }
+
+
+
     .about{
         width:100%;
-        height: 300px;
-        margin:0;
+        height: 1200px;     
+
+    }
+    .aboutH{
+        font-size:90px;
+        margin-top:10%;
+    }
+    .aboutP{
+         text-align:justify;
+         font-size:40px;
+    }
+
+    .hobby{
+        height:1000px;
+    }
+    
+    .hobbyH{
+        font-size:90px;
+        margin-top:10%;
+    }
+
+    h2{
+        font-size:50px;
+    }
+
+    .hobbyP{
+        font-size:30px;
     }
 
     .contact_section{
