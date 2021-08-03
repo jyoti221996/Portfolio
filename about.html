@@ -3,9 +3,8 @@
     <head>
         <meta charset="utf-8">
         <title>Jyoti Potdar</title>
-        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-        <!-- <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Otomanopee+One&family=Playfair+Display&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet"> -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->       
         <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@1,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="about.css">
@@ -42,8 +41,8 @@
     <!-- BANNER SECTION -->
     <div class="banner">
         
-        <img class="myImg" src="MyImg.jpg" alt="jyotipotdar">
-        <div class="container banner_container">
+        <img class="myImg" src="MyImg.jpg" data-aos="fade-right" alt="jyotipotdar">
+        <div class="container banner_container" data-aos="fade-down">
           <h1 class="bannerH">I'm Jyoti Potdar</h1>
           <h3 class="bannerH3">UI/UX Designer</h3>
           <p class="bannerP">I am a beginner in web development with positive attitude towards my career and work. Enthusiastic for my daily tasks.</p>
@@ -57,7 +56,7 @@
     </div>
 
     <!-- ABOUT ME -->
-    <div class="aboutMe">
+    <div class="aboutMe" data-aos="zoom-out">
     <div class="container about">
       <h1 class="aboutH">About Me</h1>
       <p class="aboutP">No limits and boundaries for learning. We will be students until then we living. So whichever we will learn will be best for our life. I'm talking about this because I have completed Bachelor's degree in Electronics and telecommunications but I want to start my career with IT field. I have started web development from pandemic duration was start in 2020. Now I'm much familiar with this interesting and colorful web world. From now become a Full stack web developer is my dream and passion too.</p>
@@ -72,13 +71,13 @@
         <h1 class="hobbyH">Hobbies</h1>
         <div class="row">
         <div class="hobbies col-lg-6 col-md-12 col-sm-12 col-xs-12 ">
-        <div class="hobby-row ">  
+        <div class="hobby-row " data-aos="zoom-out">  
           <img class="drawingImg" src="drawing.png" alt="drawings">
           <h2>Drawing</h2>
           <p class="hobbyP">Drawing is one of my favourite hobbies. It makes me and keeps me creative in every aspect of thinking. Draw anything means keep away from the boredom for me.</p>
         </div>
 
-        <div class="hobby-row">  
+        <div class="hobby-row" data-aos="zoom-out">  
           <img class="paperImg" src="paper craft.png" alt="papercraft">
           <h2>Paper Crafting</h2>
           <p class="hobbyP">Paper crafting. Ahh!! Sounds peaceful. It is a way to having a trip in the paper world and being lightweight as paper by the mind.</p>
@@ -87,7 +86,7 @@
       </div>
 
       <!-- QUOTE SECTION -->
-      <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12 quotes">
+      <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12 quotes" data-aos="flip-down">
         <div class="container quote">
           <img class="quoteImg" src="hobby.png" alt="hobbyquote">
       </div>
@@ -131,6 +130,16 @@
       </div>
       </div>
       </div>
+    
+    
+    <!-- FOR AOS -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+      AOS.init({
+        offset:300,
+        duration:1000
+      });
+      </script>
 
     </body>
 </html>
