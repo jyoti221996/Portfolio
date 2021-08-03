@@ -500,14 +500,16 @@
 
    /* FOR MOBILE POERTRAIT OR LANDSCAPE VIEW */
    @media(max-width:500px) {
+
+      
      .inner-banner-image {
-       width: 70%;
+       width: 96%;
        height: 50%;
      }
 
   .banner_content{
-    margin-top: 20%;
-    padding:20px;
+    margin: 40% 0%;
+    padding: 14px;
   }
 
      .left {
@@ -517,7 +519,7 @@
 
      .right {
        height: 220px;
-       margin: 0 100px 0 100px;
+       margin: 40px 50px 0 50px;
      }
 
      .right h2 {
@@ -526,14 +528,16 @@
      }
 
      .information{
-       height:680px;
+       height: 756px;
      }
 
 
 
      .image1 {
-       width: 300px;
+       width: 250px;
        height: 250px;
+       margin: 0;
+       padding: 18px 18px 10px 0;
      }
 
 
@@ -549,33 +553,34 @@
      .quote {
 
        height: 300px;
-       padding-top: 50px;
-       padding-left: 40px;
+       padding:43px 10px 10px 10px;
+
      }
 
      .quote_img{
-       width:170px;
+       width:150px;
        height:200px;
      }
 
      .target {
-       width: 170px;
+       width: 150px;
        height: 200px;
        float: right;
 
      }
 
      .contact_section {
-       height: 500px;
+       height: 400px;
      }
 
      .contact_section h1 {
-       font-size: 40px;
+       font-size: 30px;
        text-shadow: 1px 1px #000;
      }
 
      h3 {
        padding-top: 25px;
+       font-size:25px;
      }
 
      .contacts a {
@@ -586,11 +591,11 @@
      }
 
      .footer_nav {
-       padding: 3px;
+       padding:0;
      }
 
      .icons {
-       padding-top: 30px;
+       padding-top: 20px;
      }
 
      .icons a {
@@ -599,8 +604,8 @@
      }
 
      .footer p {
-       font-size: 15px;
+       font-size: 10px;
        color: rgb(116, 113, 113);
-       padding-top: 70px;
+       padding-top: 40px;
      }
    }
