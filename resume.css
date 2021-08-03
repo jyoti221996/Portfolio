@@ -11,8 +11,12 @@ body{
 
     h1{
         font-size: 3.8rem;
-
     }
+
+  nav{
+       height:auto;
+       background-image:linear-gradient(to right ,rgb(240, 180, 248) ,#9661ec) ;
+   }
 
    .nav-link {
     font-size: 1.2rem;
@@ -96,10 +100,8 @@ body{
    }
 
    .up{
-       /* position: absolute;
-       left:50%;
-       right: 50%; */
-       padding: 2% 50% 2% 50%;
+       
+padding: 2% 42% 2% 45%;
     }
 
 
@@ -107,7 +109,7 @@ body{
 
   /* MEDIA QUERIES */
 
-  @media screen and(min-width:300px)and(max-width:500px){
+/*   @media screen and(min-width:300px)and(max-width:500px){
     .resume{
         height:5000px;
         border:4px solid #000;
@@ -121,20 +123,59 @@ body{
         border:4px solid #000;
         margin:2% 5% 1% 5%;
        }
- }
+ } */
 
   @media(max-width:1024px){
+
+    .navbar-brand{
+       padding-right: 80px;
+       font-size:4rem;
+   }
+
+    .nav-link {
+    font-size: 2.2rem;
+   
+  }
     .resume{
-        height:1959px;
+        height:4120px;
         border:4px solid #000;
         margin:2% 5% 1% 5%;
        }
+  
+  h1{
+    font-size:80px;
+  }
+    
+   h4{
+     font-size:50px
+   }  
+
+   h5{
+     font-size:30px;
+   }
+
+   h6{
+     font-size:30px;
+   } 
+
+   p{
+     font-size:30px;
+   }
+
+   li{
+     font-size:30px;
+   }
+
+   .up{
+     font-size:40px;
+   }
 }
 
-  @media(max-width:1200px){
+ /*  @media(max-width:1200px){
     .resume{
         height:1984px;
         border:4px solid #000;
         margin:2% 5% 1% 5%;
        }
 }
+ */
