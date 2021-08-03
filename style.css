@@ -501,16 +501,23 @@
    /* FOR MOBILE POERTRAIT OR LANDSCAPE VIEW */
    @media(max-width:500px) {
 
-      
-     .inner-banner-image {
-       width: 96%;
-       height: 50%;
-     }
+   .banner{
+       height:450px;
+    }
 
-  .banner_content{
-    margin: 40% 0%;
+    .banner-image{
+        height:500px;
+    }
+      
+   .inner-banner-image {
+       width: 96%;
+       height: 30%;
+    }
+
+    .banner_content{
+    margin: 20% 0%;
     padding: 14px;
-  }
+    }
 
      .left {
        height: 220px;
