@@ -472,7 +472,18 @@ h3{
     }
 
     .hobby{
-        height:1000px;
+        height:2200px;
+        padding:5%;
+    }
+
+    .drawingImg{
+        width:42%;
+        height:490px;
+    }
+
+    .paperImg{
+        width:42%;
+        height:490px;
     }
     
     .hobbyH{
@@ -485,11 +496,22 @@ h3{
     }
 
     .hobbyP{
-        font-size:30px;
+        font-size:40px;
+        text-align:justify;
+    }
+
+    .quoteImg{
+        width:600px;
+        height:700px;
+        margin-left:30%;
+    }
+
+    .contactH{
+        font-size: 61px;
     }
 
     .contact_section{
-        height:430px;
+        height:530px;
         width:100%;
     }
 }
