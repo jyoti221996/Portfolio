@@ -100,12 +100,11 @@ body{
        font-family: 'Averia Serif Libre', cursive;
    }
 
-   .up{
-       
-padding: 2% 42% 2% 45%;
+   .up{       
+      padding: 2% 45% 2% 45%;
     }
 
-footer{
+    footer{
       background-image:linear-gradient(to right ,rgb(240, 180, 248) ,#9661ec) ;
       height:60px;
     }
