@@ -105,6 +105,10 @@ body{
 padding: 2% 42% 2% 45%;
     }
 
+footer{
+      background-image:linear-gradient(to right ,rgb(240, 180, 248) ,#9661ec) ;
+      height:60px;
+    }
 
 
 
